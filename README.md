@@ -79,3 +79,6 @@ NAV2有DWB， Pure Pursuit， MPPI等算法用于实际控制机器人的运动�
 Sider AI对非结构环境机器人导航的一个总结：
 https://community.sider.ai/deep-research/jh1e6lP79Pb0jIyHAdHwFN?view=1
 
+2402：
+今天主要是简单了解了下RRT的算法。
+
