@@ -1,12 +1,11 @@
 # Daily-Note
 
-0220：
+# 0220：
 我修复了机器人不能走直线的问题，通过旋转电位极调整舵机的初始位置让机器人在3m内误差3cm
 
 学习了机器人手柄的使用方式。
 
-
-0221：
+# 0221：
 我修复了机器人的时间问题，由于没有RTC时钟，机器人的时间常常错误，错误的时间有时会导致ros2的某些程序出错。我建议以后的工作流程可以是在机器人需要演示不能出错的时候，先用手机蓝牙给机器人共享网络，校准时间，我也可以问一问wheeltec官方对这个问题的解决方法。
 
 我修复了机器人雷达的问题，原本雷达dirver会在启动gmapping/nav2的时候被拉起，但是由于雷达需要一段时间才能开始正常输出，有的依赖雷达输出的节点会卡死，一般10次会有5次卡死。修改launch file后，雷达能够稳定的运行了。
@@ -28,7 +27,7 @@ Theta*（任意角度路径）
 NAV2有DWB， Pure Pursuit， MPPI等算法用于实际控制机器人的运动。我的机器人使用的是MPPI算法，由于参数过于激进，导致机器人在小空间里表现不佳，调整了速度，加速度和std这几个参数后机器人的表现更稳定了一些。但是需要更多的测试来验证鲁棒性。
 
 
-0222：
+# 0222：
 今天将机器人底盘的程序上传到了github，以后修改程序后不用担心丢失之前的记录了，上传过程花了很久因为机器默认使用的是TCP 22端口。上传速度只有几KB。排查了很久才发现原因。修改.ssh里的config强制使用443端口立马就成功上传了。
 
 之后还修复了无法在jetson里使用浏览器的问题，虽然我不需要在jetson里用浏览器但是没有我就不舒服。我了解到在ubuntu里面 我们可以用apt，snap， faltpak来安装软件，jetson里的snap是被裁减过的，不好用，最后我用faltpak安装了firefox，没有装chrome因为chrome没有arm版本。
@@ -38,7 +37,7 @@ NAV2有DWB， Pure Pursuit， MPPI等算法用于实际控制机器人的运动�
 我需要了解更多新的导航算法和原理
 我需要知道机器人实现NAV2总共用了哪些文件。
 
-0223:
+# 0223:
 阅读文献：A comprehensive review of path planning algorithms for autonomous navigation
 作者Sangeeth Venu发表于Results in Engineering
 链接https://www.sciencedirect.com/science/article/pii/S2590123025038034
@@ -79,6 +78,22 @@ NAV2有DWB， Pure Pursuit， MPPI等算法用于实际控制机器人的运动�
 Sider AI对非结构环境机器人导航的一个总结：
 https://community.sider.ai/deep-research/jh1e6lP79Pb0jIyHAdHwFN?view=1
 
-2402：
+# 2402：
 今天主要是简单了解了下RRT的算法。
+
+# 2502：
+了解了目前导航面临的几个挑战：
+
+高维搜索空间 High-Dimensional Search Spaces
+
+动态且不确定的环境 Dynamic and Uncertain Environments
+
+最优性和计算效率之间的权衡 Trade-off Between Optimality and Computational Efficiency
+
+可扩展性 Scalability
+
+学习了NAV2架构
+
+<img width="900" height="599" alt="image" src="https://github.com/user-attachments/assets/6a0ae97a-e88b-43e3-95fd-dfd9f0ed807b" />
+
 
