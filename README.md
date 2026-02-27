@@ -109,5 +109,9 @@ ROS2创建包的指令：
 /joint_state_publisher 
 <img width="2848" height="566" alt="image" src="https://github.com/user-attachments/assets/42cbbcea-c53a-495d-a3db-90d86781a040" />
 
+尝试写了一个launch file遇到很多报错 很累但是最后成功运行了
+
+还学习了如何写urdf和xacro文件，并且将wheeltec的urdf文件找出来在能在rviz里显示。中间跳过6.2.4 - 6.3.2章节。现在准备把机器放到gezbo环境里。
+
 
 
