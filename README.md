@@ -96,4 +96,18 @@ https://community.sider.ai/deep-research/jh1e6lP79Pb0jIyHAdHwFN?view=1
 
 <img width="900" height="599" alt="image" src="https://github.com/user-attachments/assets/6a0ae97a-e88b-43e3-95fd-dfd9f0ed807b" />
 
+# 2702
+今天主要是快速的学习下鱼香ros教程chapter6的内容：
+
+ROS2创建包的指令：
+‘ros2 pkg create my_robot_pkg --build-type ament_cmake --dependencies rclcpp std_msgs‘
+
+‘ros2 pkg create my_robot_py --build-type ament_python --dependencies rclpy std_msgs‘
+
+根据urdf发布TF树的工具：
+/robot_state_publisher
+/joint_state_publisher 
+<img width="2848" height="566" alt="image" src="https://github.com/user-attachments/assets/42cbbcea-c53a-495d-a3db-90d86781a040" />
+
+
 
