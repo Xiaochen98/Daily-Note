@@ -96,6 +96,8 @@ https://community.sider.ai/deep-research/jh1e6lP79Pb0jIyHAdHwFN?view=1
 
 <img width="900" height="599" alt="image" src="https://github.com/user-attachments/assets/6a0ae97a-e88b-43e3-95fd-dfd9f0ed807b" />
 
+今天和导师见面的时候导师提出要我尽快完善机器人。
+
 # 2702
 今天主要是快速的学习下鱼香ros教程chapter6的内容：
 
@@ -109,9 +111,21 @@ ROS2创建包的指令：
 /joint_state_publisher 
 <img width="2848" height="566" alt="image" src="https://github.com/user-attachments/assets/42cbbcea-c53a-495d-a3db-90d86781a040" />
 
-尝试写了一个launch file遇到很多报错 很累但是最后成功运行了
+尝试写了一个launch file遇到很多报错 很累但是最后成功运行了。
 
 还学习了如何写urdf和xacro文件，并且将wheeltec的urdf文件找出来在能在rviz里显示。中间跳过6.2.4 - 6.3.2章节。现在准备把机器放到gezbo环境里。
+
+# 0103
+今天继续学习了鱼香ros教程chapter6的内容。
+成功的用launch文件将机器人spawn在world里了，但是还不能动，教程里说需要使用两轮差速插件。但是教程里用的是xacro我是纯urdf，而且我是akm模型小车。暂时不太确定做法。
+
+下一步：
+我需要了解非结构环境下机器人导航这个大话题下大家一般研究什么。我准备搜索然后下载csv给gpt
+我需要了解更多新的导航算法和原理
+我需要知道机器人实现NAV2总共用了哪些文件。
+我需要准备COC先写一个draft
+我需要将机器人平台组装完成。
+
 
 
 
