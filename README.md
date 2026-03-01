@@ -127,5 +127,9 @@ ROS2创建包的指令：
 我需要将机器人平台组装完成。
 
 
+升降柱参数如下：
+行程300，初始高度420，总高度720
+<img width="692" height="543" alt="image" src="https://github.com/user-attachments/assets/28fabd38-1fc3-438f-b32f-4adb6a53b12d" />
+
 
 
