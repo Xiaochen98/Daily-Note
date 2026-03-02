@@ -131,5 +131,17 @@ ROS2创建包的指令：
 行程300，初始高度420，总高度720
 <img width="692" height="543" alt="image" src="https://github.com/user-attachments/assets/28fabd38-1fc3-438f-b32f-4adb6a53b12d" />
 
+今天设计了初版的机器人底座升降柱支撑结构。
+准备购买altronics的terminal block 需要2-4个
+<img width="668" height="432" alt="image" src="https://github.com/user-attachments/assets/b0ed560c-8a06-42b9-bd55-81929e5aa0ee" />
+DC-DC Converter
+<img width="212" height="409" alt="image" src="https://github.com/user-attachments/assets/0e77ee78-24a4-46fe-8e7b-19c7d88b8f6e" />
+plug
+<img width="229" height="416" alt="image" src="https://github.com/user-attachments/assets/e2890b30-e644-4a93-b822-88bdd4fa7a51" />
+还需要对应的cable和heatshrink
+关于线的挑选 机械臂需要5A的电流 升降柱需要电流未知需要等待商家回复。
+
+
+
 
 
