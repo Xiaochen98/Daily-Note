@@ -141,6 +141,14 @@ DC-DC Converter
 plug
 <img width="229" height="416" alt="image" src="https://github.com/user-attachments/assets/e2890b30-e644-4a93-b822-88bdd4fa7a51" />
 
+usb hub
+<img width="427" height="807" alt="image" src="https://github.com/user-attachments/assets/ba2a94cd-6bb8-4363-8ade-53219b78cfd3" />
+
+usb extnesion
+<img width="398" height="787" alt="image" src="https://github.com/user-attachments/assets/de5debc5-8fb1-420b-8456-e0063b22377b" />
+
+
+
 还需要对应的cable和heatshrink
 关于线的挑选 机械臂需要5A的电流 升降柱需要电流未知需要等待商家回复。
 
