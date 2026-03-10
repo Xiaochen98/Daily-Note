@@ -154,6 +154,8 @@ usb extnesion
 
 还需要M3的bolt 15mm长
 
+# 1003
+居然好几天没有记录了，今天初步完成了MCU-IMU的小PCB设计，时间有点晚了，但是明天我要找到6pin的口并且画出layout布线图
 
 
 
