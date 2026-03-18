@@ -171,6 +171,14 @@ usb extnesion
 
 今天主要是要把COC的东西整理一下
 
+# 1803
+今天面试的结果出来了，我居然连一轮面试都没过，我受到一些打击，但是我也习惯了，已经失败很多次了，从最初的Kord，到做人工心脏的，再到Fliteboard，最近是boresight，我已经连续失败很多次了。都忘记成果是什么感觉了，每次都是包含期望，努力准备，但是没有结果。但是我不会放弃，下半年还要Greenroom Robotics可能可以面试。
+
+我把我准备做的课题给AI后AI建议的改进：
+Learning-based exploration and decision making for mobile robots under uncertainty
+Learning-enhanced navigation strategies in partially observable environments
+Decision-making for autonomous navigation in semi-structured environments
+
 
 
 
